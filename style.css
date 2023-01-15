@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 24px;
+    background-color: burlywood !important;
+    font-family: 'Architects Daughter';
+}
+.main-container{
+    width: 95%;
+    margin: 20px auto;
+    min-height: 100vh;
+}
+.container1{
+    margin-left: 5%;
+}
+.container2{
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+.container3{
+    display: none;
+    position: absolute;
+    top: 26%;
+    left:40%;
+}
+textarea{
+    width:275px;
+    height: 275px;
+    padding: 40px 25px 25px 25px;
+    outline: none;
+    border: none;
+    box-shadow: 7px 7px 7px grey;
+    z-index: -1;
+    font-family: 'Architects Daughter';
+    resize: none;
+}
+svg{
+    color: grey;
+    font-size: 20px;
+}
+#check-icon{
+    position: absolute;
+    right: 17%;
+    top:4%;
+}
+#x-icon{
+    position: absolute;
+    right: 5%;
+    top:4%; 
+}
+::placeholder{
+    font-family: 'Architects Daughter';
+    font-size: 22px;
+}
+footer{
+    background-color: black;
+    color: white;
+    position: relative;
+    
+    width: 100%;
+    text-align: center;
+}
